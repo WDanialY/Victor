@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-image: url("lib/images/bg-pattern-top.svg"), url("lib/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 54vw top -60vh, left 54vw top 25vh;
+    overflow: hidden;
+}
+img{
+    border-radius: 50%;
+    border: white 4px solid;
+    background-color: white;
+    position: relative;
+    top: 90px;
+}
+.card{
+    width: 350px;
+    padding: 0;
+    border-radius: 15px;
+    height: 500px;
+    margin: 150px auto;
+}
+.card-top{
+    background-image: url(lib/images/bg-pattern-card.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 15px 15px 0 0;
+    height: 140px;
+}
+.card-mid{
+    margin: 0;
+    height: 150px;
+    background-color: white;
+}
+.name {
+    font-weight: bold;
+    padding-top: 75px;
+}
+span {
+    color: hsl(227, 10%, 46%);
+    margin-left: 0.5vw;
+    font-weight: normal;
+}
+.city {
+    margin-top: 15px;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+.card-bottom {
+    height: 80px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding-top: 25px 0;
+    border-top: lightgrey 0.5px solid;
+}
+.element{
+    display: inline-block;
+    width: 28%;
+    margin-top: 24.5px;
+}
+#followers{
+    margin-left: 0;
+}
+.index{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.index-names {
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+.coded {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+}
